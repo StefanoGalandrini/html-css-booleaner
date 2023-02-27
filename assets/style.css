@@ -1,4 +1,19 @@
 * {
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+header {
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-size: 750px;
+    background-position: top;
+    height: 190px;
+}
+
+.logo {
+    width: 360px;
+    margin: 70px 0 0 10px;
+}
