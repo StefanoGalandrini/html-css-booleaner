@@ -1,3 +1,4 @@
+/* reset per eliminare il bordo attorno all'Header */
 * {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
@@ -34,6 +35,39 @@ h3 {
     line-height: 20px;
 }
 
+p {
+    margin-bottom: 30px;
+}
+
+/* impostazioni UL e LI per lista puntata ricavate da Inspector */
+ul {
+    list-style-type: disc;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 25px; /* modificato per allinearsi al margine sinistro */
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+/* fine impostazioni lista puntata */
+
+table {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+thead {
+    background-color: #4ea0ff;
+    color: white;
+}
+
 .logo {
     width: 360px;
     margin: 70px 0 0 10px;
@@ -48,6 +82,29 @@ h3 {
 }
 
 .spokesmen {
-    margin: 30px 0 5px 0;
+    margin-top: 30px;
     height: 670px;
+}
+
+.caption {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.large-cell {
+    width: 50%;
+}
+
+.colored-row {
+    background-color: #a4ceff;
 }
